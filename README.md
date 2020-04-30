@@ -1,13 +1,18 @@
 React Mac Keyboard
 ---
 <!--dividing-->
+[![](https://img.shields.io/github/issues/uiwjs/react-mac-keyboard.svg)](https://github.com/uiwjs/react-mac-keyboard/issues)
+[![](https://img.shields.io/github/forks/uiwjs/react-mac-keyboard.svg)](https://github.com/uiwjs/react-mac-keyboard/network)
+[![](https://img.shields.io/github/stars/uiwjs/react-mac-keyboard.svg)](https://github.com/uiwjs/react-mac-keyboard/stargazers)
+[![](https://img.shields.io/github/release/uiwjs/react-mac-keyboard)](https://github.com/uiwjs/react-mac-keyboard/releases)
+[![](https://img.shields.io/npm/v/@uiw/react-mac-keyboard.svg)](https://www.npmjs.com/package/@uiw/react-mac-keyboard)
 
 Macbook computer keyboard style for react component.
 
 ## Quick Start
 
 ```js
-import MarkdownPreview from '@uiw/react-markdown-preview';
+import MarkdownPreview from '@uiw/react-mac-keyboard';
 
 function Demo() {
   return (
