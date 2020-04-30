@@ -6,6 +6,7 @@
   "main": "lib/cjs/index.js",
   "module": "lib/esm/index.js",
   "scripts": {
+    "prepack": "npm run build",
     "doc": "ENTRYDIR=website kkt build",
     "doc:dev": "ENTRYDIR=website kkt start",
     "build": "npm run build:lib && npm run doc",
