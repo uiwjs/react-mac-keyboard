@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import MarkdownPreview from '@uiw/react-markdown-preview';
 import GitHubCorners from '@uiw/react-github-corners';
 import { Npm, Github } from '@uiw/react-shields';
@@ -8,6 +8,7 @@ import MDStr from '../README.md';
 import './App.css';
 
 export default () => {
+  const [keyCode, setKeyCode] = useState<number[]>([]);
   return (
     <div className="App">
       <GitHubCorners zIndex={9999} fixed target="__blank" href="https://github.com/uiwjs/react-mac-keyboard" />
@@ -20,7 +21,17 @@ export default () => {
           Macbook computer keyboard style for react component.
         </p>
       </header>
-      <MacKeyboard />
+      <MacKeyboard
+        keyCode={keyCode}
+        onMouseDown={(e, item) => {
+          if (item.keycode > -1) {
+            setKeyCode([item.keycode]);
+          }
+        }}
+        onMouseUp={() =>{
+          setKeyCode([]);
+        }}
+      />
       <MarkdownPreview className="App-markdown" source={MDStr.replace(/([\s\S]*)<!--dividing-->/, '')} />
       <div className="App-footer">
         <Github user="uiwjs" repo="react-mac-keyboard">
@@ -28,7 +39,7 @@ export default () => {
           <Github.Social type="stars" href="https://github.com/uiwjs/react-mac-keyboard/stargazers" />
           <Github.Social type="watchers" href="https://github.com/uiwjs/react-mac-keyboard/watchers" />
         </Github>
-        <Npm.Version scope="@uiw" packageName="react-shields" href="https://www.npmjs.com/package/@uiw/react-mac-keyboard" />
+        <Npm.Version scope="@uiw" packageName="react-mac-keyboard" href="https://www.npmjs.com/package/@uiw/react-mac-keyboard" />
       </div>
     </div>
   );
