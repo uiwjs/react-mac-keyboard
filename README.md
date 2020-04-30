@@ -40,6 +40,11 @@ function Demo() {
 ## Options Props
 
 ```typescript
+type KeyCodeData = {
+  keycode: number;
+  name: string[];
+}
+
 interface MacKeyBoardProps {
   prefixCls?: string;
   className?: string;
