@@ -20,8 +20,19 @@ Macbook computer keyboard style for react component.
 import MarkdownPreview from '@uiw/react-mac-keyboard';
 
 function Demo() {
+  const [keyCode, setKeyCode] = useState([]);
   return (
-    <MacKeyboard />
+    <MacKeyboard
+      keyCode={keyCode}
+      onMouseDown={(e, item) => {
+        if (item.keycode > -1) {
+          setKeyCode([item.keycode]);
+        }
+      }}
+      onMouseUp={() =>{
+        setKeyCode([]);
+      }}
+    />
   );
 }
 ```
