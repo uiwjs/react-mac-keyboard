@@ -1,5 +1,10 @@
-React Mac Keyboard
----
+<p align="center">
+  <h2>React Mac Keyboard</h2>
+  <a href="https://github.com/uiwjs/react-mac-keyboard">
+    <img src="https://user-images.githubusercontent.com/1680273/80699566-c2aad500-8b0e-11ea-8d37-7e5537949d73.png">
+  </a>
+</p>
+
 <!--dividing-->
 [![](https://img.shields.io/github/issues/uiwjs/react-mac-keyboard.svg)](https://github.com/uiwjs/react-mac-keyboard/issues)
 [![](https://img.shields.io/github/forks/uiwjs/react-mac-keyboard.svg)](https://github.com/uiwjs/react-mac-keyboard/network)
