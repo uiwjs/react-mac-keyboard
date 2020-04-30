@@ -11,6 +11,7 @@ export type KeyCodeData = {
 export interface MacKeyBoardProps {
   prefixCls?: string;
   className?: string;
+  style?: React.CSSProperties;
   keyCode?: number[];
   onMouseDown?: (e: React.MouseEvent<HTMLLIElement, MouseEvent>, item: KeyCodeData) => void;
   onMouseUp?: (e: React.MouseEvent<HTMLLIElement, MouseEvent>, item: KeyCodeData) => void;
@@ -97,9 +98,9 @@ const keyCodeData: KeyCodeData[] = [
   { keycode: 40, name: ['▼'] },
 ];
 
-export default function MacKeyBoard({ prefixCls, className, keyCode = [], onMouseDown, onMouseUp, ...props }: MacKeyBoardProps) {
+export default function MacKeyBoard({ prefixCls, className, style, keyCode = [], onMouseDown, onMouseUp, ...props }: MacKeyBoardProps) {
   return (
-    <div className={`${prefixCls || ''} ${className || ''}`}>
+    <div className={`${prefixCls || ''} ${className || ''}`} style={style}>
       <ul>
         {keyCodeData.map((item, idx) => {
           const name = item.name.map((_item, _idx) => <span key={`${_idx}`}>{_item}</span>);

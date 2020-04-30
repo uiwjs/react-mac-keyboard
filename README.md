@@ -48,6 +48,7 @@ type KeyCodeData = {
 interface MacKeyBoardProps {
   prefixCls?: string;
   className?: string;
+  style?: React.CSSProperties;
   keyCode?: number[];
   onMouseDown?: (e: React.MouseEvent<HTMLLIElement, MouseEvent>, item: KeyCodeData) => void;
   onMouseUp?: (e: React.MouseEvent<HTMLLIElement, MouseEvent>, item: KeyCodeData) => void;
