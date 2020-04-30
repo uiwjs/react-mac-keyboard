@@ -1,7 +1,6 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import classnames from 'classnames';
 import './style/index.less';
 
 export type KeyCodeData = {
@@ -100,7 +99,7 @@ const keyCodeData: KeyCodeData[] = [
 
 export default function MacKeyBoard({ prefixCls, className, keyCode = [], onMouseDown, onMouseUp, ...props }: MacKeyBoardProps) {
   return (
-    <div className={classnames(prefixCls, className)}>
+    <div className={`${prefixCls || ''} ${className || ''}`}>
       <ul>
         {keyCodeData.map((item, idx) => {
           const name = item.name.map((_item, _idx) => <span key={`${_idx}`}>{_item}</span>);
@@ -109,7 +108,7 @@ export default function MacKeyBoard({ prefixCls, className, keyCode = [], onMous
               key={idx}
               onMouseDown={(e) => onMouseDown && onMouseDown(e, item)}
               onMouseUp={(e) => onMouseUp && onMouseUp(e, item)}
-              className={classnames({ pressed: keyCode.indexOf(item.keycode) > -1 })}
+              className={keyCode.indexOf(item.keycode) > -1 ? 'pressed' : ''}
               data-key={item.keycode}
               {...props}
             >
