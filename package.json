@@ -1,6 +1,6 @@
 {
   "name": "@uiw/react-mac-keyboard",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Macbook computer keyboard style for react component.",
   "homepage": "https://uiwjs.github.io/react-mac-keyboard/",
   "main": "lib/cjs/index.js",
@@ -22,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kktjs/kkt.git"
+    "url": "https://github.com/uiwjs/react-mac-keyboard/.git"
   },
   "author": "",
   "license": "MIT",
