@@ -16,6 +16,18 @@ function Demo() {
 }
 ```
 
+## Options Props
+
+```typescript
+interface MacKeyBoardProps {
+  prefixCls?: string;
+  className?: string;
+  keyCode?: number[];
+  onMouseDown?: (e: React.MouseEvent<HTMLLIElement, MouseEvent>, item: KeyCodeData) => void;
+  onMouseUp?: (e: React.MouseEvent<HTMLLIElement, MouseEvent>, item: KeyCodeData) => void;
+}
+```
+
 ## Development
 
 Runs the project in development mode.  
