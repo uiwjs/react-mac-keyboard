@@ -22,9 +22,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/uiwjs/react-mac-keyboard/.git"
+    "url": "https://github.com/uiwjs/react-mac-keyboard.git"
   },
-  "author": "",
+  "keywords": [
+    "mac",
+    "uiw",
+    "react",
+    "react-component",
+    "mac-keyboard",
+    "macbook",
+    "keyboard"
+  ],
+  "author": "kenny wong <wowohoo@qq.com>",
   "license": "MIT",
   "peerDependencies": {
     "react": ">=16.8.0",
