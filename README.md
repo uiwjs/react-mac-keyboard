@@ -68,8 +68,6 @@ npm run types:watch
 npm run doc:dev
 ```
 
-production
-
 Builds the app for production to the build folder.
 
 ```bash
