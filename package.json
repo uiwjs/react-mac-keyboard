@@ -51,8 +51,8 @@
     "@uiw/react-github-corners": "1.2.0",
     "@uiw/react-markdown-preview": "1.0.8",
     "@uiw/react-shields": "1.1.0",
-    "react": "16.13.1",
-    "react-dom": "16.13.1",
+    "react": "16.14.0",
+    "react-dom": "16.14.0",
     "compile-less-cli": "1.4.0",
     "kkt": "5.10.3",
     "tsbb": "1.7.6"
