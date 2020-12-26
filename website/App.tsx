@@ -7,7 +7,7 @@ import MacKeyboard from '../';
 import MDStr from '../README.md';
 import './App.css';
 
-export default () => {
+const APP =  () => {
   const [keyCode, setKeyCode] = useState<number[]>([]);
   return (
     <div className="App">
@@ -44,3 +44,5 @@ export default () => {
     </div>
   );
 }
+
+export default APP;
