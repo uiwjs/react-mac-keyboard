@@ -1,4 +1,4 @@
-name: Build and Deploy react-mac-keyboard
+name: Build & Deploy
 on:
   push:
     branches:
