@@ -47,7 +47,7 @@
     "@kkt/less-modules": "6.0.11",
     "@kkt/raw-modules": "6.0.11",
     "@kkt/scope-plugin-options": "6.0.11",
-    "@types/classnames": "2.2.10",
+    "@types/classnames": "2.2.11",
     "@types/react": "16.9.46",
     "@types/react-dom": "16.9.8",
     "@uiw/react-github-corners": "1.2.0",
