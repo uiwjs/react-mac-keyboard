@@ -44,20 +44,20 @@
     "prop-types": "15.7.2"
   },
   "devDependencies": {
-    "@kkt/less-modules": "6.0.11",
-    "@kkt/raw-modules": "6.0.11",
-    "@kkt/scope-plugin-options": "6.0.11",
-    "@types/classnames": "2.2.10",
-    "@types/react": "16.9.46",
-    "@types/react-dom": "16.9.8",
+    "@kkt/less-modules": "6.8.2",
+    "@kkt/raw-modules": "6.8.2",
+    "@kkt/scope-plugin-options": "6.8.2",
+    "@types/classnames": "2.2.11",
+    "@types/react": "17.0.3",
+    "@types/react-dom": "17.0.3",
     "@uiw/react-github-corners": "1.2.0",
-    "@uiw/react-markdown-preview": "1.0.8",
-    "@uiw/react-shields": "1.1.0",
+    "@uiw/react-markdown-preview": "2.1.1",
+    "@uiw/react-shields": "1.1.1",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "compile-less-cli": "1.6.0",
-    "kkt": "6.0.11",
-    "tsbb": "1.7.6"
+    "compile-less-cli": "1.7.0",
+    "kkt": "6.8.2",
+    "tsbb": "2.1.2"
   },
   "eslintConfig": {
     "extends": [
