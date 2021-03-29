@@ -1,2 +1,0 @@
-(this["webpackJsonp@uiw/react-mac-keyboard"]=this["webpackJsonp@uiw/react-mac-keyboard"]||[]).push([[458],{517:function(a,e){!function(a){function e(e,n){a.languages[e]&&a.languages.insertBefore(e,"comment",{"doc-comment":n})}var n=a.languages.markup.tag,t={pattern:/\/\/\/.*/,greedy:!0,alias:"comment",inside:{tag:n}},s={pattern:/'''.*/,greedy:!0,alias:"comment",inside:{tag:n}};e("csharp",t),e("fsharp",t),e("vbnet",s)}(Prism)}}]);
-//# sourceMappingURL=458.5735ae1c.chunk.js.map
