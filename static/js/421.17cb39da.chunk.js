@@ -1,2 +1,0 @@
-(this["webpackJsonp@uiw/react-mac-keyboard"]=this["webpackJsonp@uiw/react-mac-keyboard"]||[]).push([[421],{481:function(a,s){var e=Prism.util.clone(Prism.languages.typescript);Prism.languages.tsx=Prism.languages.extend("jsx",e)}}]);
-//# sourceMappingURL=421.17cb39da.chunk.js.map
