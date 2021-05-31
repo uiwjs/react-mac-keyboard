@@ -18,7 +18,8 @@ Macbook computer keyboard style for react component.
 ## Quick Start
 
 ```js
-import MarkdownPreview from '@uiw/react-mac-keyboard';
+import { useState } from "react";
+import MacKeyboard from "@uiw/react-mac-keyboard";
 
 function Demo() {
   const [keyCode, setKeyCode] = useState([]);
