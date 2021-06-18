@@ -56,7 +56,7 @@
     "react-dom": "17.0.2",
     "compile-less-cli": "1.7.0",
     "kkt": "6.9.0",
-    "tsbb": "2.1.2"
+    "tsbb": "2.2.1"
   },
   "eslintConfig": {
     "extends": [
