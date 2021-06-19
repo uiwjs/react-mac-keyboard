@@ -44,6 +44,10 @@
   "dependencies": {
     "prop-types": "15.7.2"
   },
+  "files": [
+    "lib",
+    "src"
+  ],
   "devDependencies": {
     "@kkt/less-modules": "6.10.4",
     "@kkt/raw-modules": "6.10.4",
