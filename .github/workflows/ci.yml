@@ -7,48 +7,53 @@ jobs:
   build-deploy:
     runs-on: ubuntu-18.04
     steps:
-    - uses: actions/checkout@v2
-    - uses: actions/setup-node@v2
-      with:
-        node-version: '14'
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 14
 
-    - run: npm install
-    - run: npm run build
+      - run: npm install
+      - run: npm run build:lib
+      - run: npm run doc
 
-    - name: Create Tag
-      id: create_tag
-      uses: jaywcjlove/create-tag-action@v1.1.8
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-        package-path: ./package.json
+      - name: Create Tag
+        id: create_tag
+        uses: jaywcjlove/create-tag-action@v1.2.0
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          package-path: ./package.json
 
-    - name: Generate Changelog
-      id: changelog
-      uses: jaywcjlove/changelog-generator@v1.3.9
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-        head-ref: ${{steps.create_tag.outputs.version}}
-        filter-author: (jaywcjlove|小弟调调™|dependabot\[bot\]|Renovate Bot)
-        filter: '[R|r]elease[d]\s+[v|V]\d(\.\d+){0,2}'
+      - name: Generate Changelog
+        id: changelog
+        uses: jaywcjlove/changelog-generator@v1.4.2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          head-ref: ${{steps.create_tag.outputs.version}}
+          filter-author: (jaywcjlove|小弟调调™|dependabot\[bot\]|Renovate Bot)
+          filter: '[R|r]elease[d]\s+[v|V]\d(\.\d+){0,2}'
 
-    - name: Create Release
-      uses: ncipollo/release-action@v1
-      if: steps.create_tag.outputs.successful
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-        name: ${{ steps.create_tag.outputs.version }}
-        tag: ${{ steps.create_tag.outputs.versionNumber }}
-        body: |
-          [![](https://img.shields.io/badge/Open%20in-unpkg-blue)](https://uiwjs.github.io/npm-unpkg/#/pkg/@uiw/react-md-editor@${{steps.create_tag.outputs.versionNumber}}/file/README.md)
-          ```bash
-          npm i @uiw/react-md-editor@${{steps.create_tag.outputs.versionNumber}}
-          ```
-          ${{ steps.changelog.outputs.compareurl }}
-          ${{ steps.changelog.outputs.changelog }}
+      - name: Create Release
+        uses: ncipollo/release-action@v1
+        if: steps.create_tag.outputs.successful
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          name: ${{ steps.create_tag.outputs.version }}
+          tag: ${{ steps.create_tag.outputs.versionNumber }}
+          body: |
+            [![](https://img.shields.io/badge/Open%20in-unpkg-blue)](https://uiwjs.github.io/npm-unpkg/#/pkg/@uiw/react-mac-keyboard@${{steps.create_tag.outputs.versionNumber}}/file/README.md)
+            
+            ```bash
+            npm i @uiw/react-mac-keyboard@${{steps.create_tag.outputs.versionNumber}}
+            ```
 
-    - name: Build and Deploy
-      uses: peaceiris/actions-gh-pages@v2.5.0
-      env:
-        ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-        PUBLISH_BRANCH: gh-pages
-        PUBLISH_DIR: ./build
+            ${{ steps.changelog.outputs.compareurl }}
+            ${{ steps.changelog.outputs.changelog }}
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
+
+      - run: npm install @jsdevtools/npm-publish -g
+      - run: npm-publish --token="${{ secrets.NPM_TOKEN }}" ./package.json
