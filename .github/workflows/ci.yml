@@ -13,7 +13,7 @@ jobs:
           node-version: 14
 
       - run: npm install
-      - run: npm run build:lib
+      - run: npm run build
       - run: npm run doc
 
       - name: Create Tag
