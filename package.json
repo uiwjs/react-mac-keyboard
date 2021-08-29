@@ -3,24 +3,17 @@
   "version": "1.0.7",
   "description": "Macbook computer keyboard style for react component.",
   "homepage": "https://uiwjs.github.io/react-mac-keyboard/",
-  "main": "lib/cjs/index.js",
-  "module": "lib/esm/index.js",
+  "main": "cjs/index.js",
+  "module": "esm/index.js",
   "scripts": {
-    "prepack": "npm run build:lib",
+    "prepack": "npm run build",
     "doc": "kkt build --app-src ./website",
     "start": "kkt start --app-src ./website",
-    "build": "npm run build:lib && npm run doc",
-    "watch": "npm run ts:watch & npm run types:watch & npm run css:watch",
-    "build:lib": "npm run ts:build && npm run types:esm && npm run types:cjs && npm run css:build && npm run css:build:dist",
-    "types:build": "tsbb types --sourceRoot src --target ESNEXT",
-    "types:watch": "npm run types:esm -- --watch & npm run types:cjs -- --watch",
-    "types:esm": "npm run types:build -- --outDir ../lib/esm",
-    "types:cjs": "npm run types:build -- --outDir ../lib/cjs",
-    "css:build": "compile-less -d src -o lib/esm",
-    "css:watch": "compile-less -d src -o lib/esm --watch",
-    "css:build:dist": "compile-less -d src --combine lib/dist.css --rm-global",
-    "ts:watch": "tsbb watch --env-name esm:dev --env-name cjs --target react",
-    "ts:build": "tsbb build --target react"
+    "css:build": "compile-less -d src -o esm",
+    "css:watch": "compile-less -d src -o esm --watch",
+    "css:build:dist": "compile-less -d src --combine dist.css --rm-global",
+    "watch": "tsbb watch",
+    "build": "tsbb build && npm run css:build && npm run css:build:dist"
   },
   "repository": {
     "type": "git",
@@ -45,23 +38,25 @@
     "prop-types": "15.7.2"
   },
   "files": [
-    "lib",
+    "dist.css",
+    "cjs",
+    "esm",
     "src"
   ],
   "devDependencies": {
-    "@kkt/less-modules": "6.10.4",
-    "@kkt/raw-modules": "6.10.4",
-    "@kkt/scope-plugin-options": "6.10.4",
-    "@types/react": "17.0.7",
-    "@types/react-dom": "17.0.8",
+    "@kkt/less-modules": "6.11.0",
+    "@kkt/raw-modules": "6.11.0",
+    "@kkt/scope-plugin-options": "6.11.0",
+    "@types/react": "17.0.19",
+    "@types/react-dom": "17.0.9",
     "@uiw/react-github-corners": "1.4.0",
-    "@uiw/react-markdown-preview": "3.1.1",
+    "@uiw/react-markdown-preview": "3.3.0",
     "@uiw/react-shields": "1.1.1",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "compile-less-cli": "1.8.0",
-    "kkt": "6.10.4",
-    "tsbb": "2.2.1"
+    "compile-less-cli": "1.8.1",
+    "kkt": "6.11.0",
+    "tsbb": "3.0.0"
   },
   "eslintConfig": {
     "extends": [
