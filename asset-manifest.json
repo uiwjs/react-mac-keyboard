@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/react-mac-keyboard/static/css/main.f32a12d9.chunk.css",
-    "main.js": "/react-mac-keyboard/static/js/main.3805bef2.chunk.js",
-    "main.js.map": "/react-mac-keyboard/static/js/main.3805bef2.chunk.js.map",
-    "runtime-main.js": "/react-mac-keyboard/static/js/runtime-main.8e08b734.js",
-    "runtime-main.js.map": "/react-mac-keyboard/static/js/runtime-main.8e08b734.js.map",
-    "static/css/2.d2b015bb.chunk.css": "/react-mac-keyboard/static/css/2.d2b015bb.chunk.css",
-    "static/js/2.c748b5fa.chunk.js": "/react-mac-keyboard/static/js/2.c748b5fa.chunk.js",
-    "static/js/2.c748b5fa.chunk.js.map": "/react-mac-keyboard/static/js/2.c748b5fa.chunk.js.map",
+    "main.css": "/react-mac-keyboard/static/css/main.2a0f92ce.chunk.css",
+    "main.js": "/react-mac-keyboard/static/js/main.0daaecc5.chunk.js",
+    "main.js.map": "/react-mac-keyboard/static/js/main.0daaecc5.chunk.js.map",
+    "runtime-main.js": "/react-mac-keyboard/static/js/runtime-main.a82671f2.js",
+    "runtime-main.js.map": "/react-mac-keyboard/static/js/runtime-main.a82671f2.js.map",
+    "static/css/2.184e88c3.chunk.css": "/react-mac-keyboard/static/css/2.184e88c3.chunk.css",
+    "static/js/2.c71c374a.chunk.js": "/react-mac-keyboard/static/js/2.c71c374a.chunk.js",
+    "static/js/2.c71c374a.chunk.js.map": "/react-mac-keyboard/static/js/2.c71c374a.chunk.js.map",
     "index.html": "/react-mac-keyboard/index.html",
-    "static/css/2.d2b015bb.chunk.css.map": "/react-mac-keyboard/static/css/2.d2b015bb.chunk.css.map",
-    "static/css/main.f32a12d9.chunk.css.map": "/react-mac-keyboard/static/css/main.f32a12d9.chunk.css.map",
-    "static/js/2.c748b5fa.chunk.js.LICENSE.txt": "/react-mac-keyboard/static/js/2.c748b5fa.chunk.js.LICENSE.txt",
+    "static/css/2.184e88c3.chunk.css.map": "/react-mac-keyboard/static/css/2.184e88c3.chunk.css.map",
+    "static/css/main.2a0f92ce.chunk.css.map": "/react-mac-keyboard/static/css/main.2a0f92ce.chunk.css.map",
+    "static/js/2.c71c374a.chunk.js.LICENSE.txt": "/react-mac-keyboard/static/js/2.c71c374a.chunk.js.LICENSE.txt",
     "static/media/logo.3931a054.svg": "/react-mac-keyboard/static/media/logo.3931a054.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.8e08b734.js",
-    "static/css/2.d2b015bb.chunk.css",
-    "static/js/2.c748b5fa.chunk.js",
-    "static/css/main.f32a12d9.chunk.css",
-    "static/js/main.3805bef2.chunk.js"
+    "static/js/runtime-main.a82671f2.js",
+    "static/css/2.184e88c3.chunk.css",
+    "static/js/2.c71c374a.chunk.js",
+    "static/css/main.2a0f92ce.chunk.css",
+    "static/js/main.0daaecc5.chunk.js"
   ]
 }
