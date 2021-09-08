@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/react-mac-keyboard/static/css/main.2a0f92ce.chunk.css",
-    "main.js": "/react-mac-keyboard/static/js/main.353b58cc.chunk.js",
-    "main.js.map": "/react-mac-keyboard/static/js/main.353b58cc.chunk.js.map",
+    "main.js": "/react-mac-keyboard/static/js/main.ef71ab0d.chunk.js",
+    "main.js.map": "/react-mac-keyboard/static/js/main.ef71ab0d.chunk.js.map",
     "runtime-main.js": "/react-mac-keyboard/static/js/runtime-main.a82671f2.js",
     "runtime-main.js.map": "/react-mac-keyboard/static/js/runtime-main.a82671f2.js.map",
-    "static/css/2.d01cb069.chunk.css": "/react-mac-keyboard/static/css/2.d01cb069.chunk.css",
-    "static/js/2.bd45040f.chunk.js": "/react-mac-keyboard/static/js/2.bd45040f.chunk.js",
-    "static/js/2.bd45040f.chunk.js.map": "/react-mac-keyboard/static/js/2.bd45040f.chunk.js.map",
+    "static/css/2.184e88c3.chunk.css": "/react-mac-keyboard/static/css/2.184e88c3.chunk.css",
+    "static/js/2.c4f196ed.chunk.js": "/react-mac-keyboard/static/js/2.c4f196ed.chunk.js",
+    "static/js/2.c4f196ed.chunk.js.map": "/react-mac-keyboard/static/js/2.c4f196ed.chunk.js.map",
     "index.html": "/react-mac-keyboard/index.html",
-    "static/css/2.d01cb069.chunk.css.map": "/react-mac-keyboard/static/css/2.d01cb069.chunk.css.map",
+    "static/css/2.184e88c3.chunk.css.map": "/react-mac-keyboard/static/css/2.184e88c3.chunk.css.map",
     "static/css/main.2a0f92ce.chunk.css.map": "/react-mac-keyboard/static/css/main.2a0f92ce.chunk.css.map",
-    "static/js/2.bd45040f.chunk.js.LICENSE.txt": "/react-mac-keyboard/static/js/2.bd45040f.chunk.js.LICENSE.txt",
+    "static/js/2.c4f196ed.chunk.js.LICENSE.txt": "/react-mac-keyboard/static/js/2.c4f196ed.chunk.js.LICENSE.txt",
     "static/media/logo.3931a054.svg": "/react-mac-keyboard/static/media/logo.3931a054.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.a82671f2.js",
-    "static/css/2.d01cb069.chunk.css",
-    "static/js/2.bd45040f.chunk.js",
+    "static/css/2.184e88c3.chunk.css",
+    "static/js/2.c4f196ed.chunk.js",
     "static/css/main.2a0f92ce.chunk.css",
-    "static/js/main.353b58cc.chunk.js"
+    "static/js/main.ef71ab0d.chunk.js"
   ]
 }
