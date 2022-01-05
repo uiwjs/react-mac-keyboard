@@ -35,7 +35,7 @@
     "react-dom": ">=16.8.0"
   },
   "dependencies": {
-    "prop-types": "15.8.0"
+    "prop-types": "15.8.1"
   },
   "files": [
     "dist.css",
