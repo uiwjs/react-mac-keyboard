@@ -44,18 +44,18 @@
     "src"
   ],
   "devDependencies": {
-    "@kkt/less-modules": "7.0.4",
-    "@kkt/raw-modules": "7.0.4",
-    "@kkt/scope-plugin-options": "7.0.4",
+    "@kkt/less-modules": "7.0.5",
+    "@kkt/raw-modules": "7.0.5",
+    "@kkt/scope-plugin-options": "7.0.5",
     "@types/react": "17.0.38",
     "@types/react-dom": "17.0.11",
     "@uiw/react-github-corners": "1.5.3",
-    "@uiw/react-markdown-preview": "3.4.5",
+    "@uiw/react-markdown-preview": "3.4.7",
     "@uiw/react-shields": "1.1.2",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "compile-less-cli": "1.8.11",
-    "kkt": "7.0.4",
+    "kkt": "7.0.5",
     "tsbb": "3.5.4"
   },
   "eslintConfig": {
