@@ -77,3 +77,17 @@ npm run doc
 
 The build is minified and the filenames include the hashes.
 Your app is ready to be deployed!
+
+## Contributors
+
+As always, thanks to our amazing contributors!
+
+<a href="https://github.com/uiwjs/react-mac-keyboard/graphs/contributors">
+  <img src="https://uiwjs.github.io/react-mac-keyboard/CONTRIBUTORS.svg" />
+</a>
+
+Made with [github-action-contributors](https://github.com/jaywcjlove/github-action-contributors).
+
+## License
+
+Licensed under the MIT License.
