@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import MarkdownPreview from '@uiw/react-markdown-preview';
-import GitHubCorners from '@uiw/react-github-corners';
 import { Npm, Github } from '@uiw/react-shields';
+import '@uiw/github-corners';
+import '@wcj/dark-mode';
 import logo from './logo.svg';
 import MacKeyboard from '../';
 import MDStr from '../README.md';
@@ -11,7 +12,8 @@ const APP =  () => {
   const [keyCode, setKeyCode] = useState<number[]>([]);
   return (
     <div className="App">
-      <GitHubCorners zIndex={9999} fixed target="__blank" href="https://github.com/uiwjs/react-mac-keyboard" />
+      <dark-mode light="Light" dark="Light" style={{ position: 'fixed', top: 8, left: 10 }}></dark-mode>
+      <github-corners href="https://github.com/uiwjs/react-mac-keyboard" position="fixed" target="__blank"></github-corners>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <a className="App-link" href="https://github.com/uiwjs/react-mac-keyboard" target="_blank" rel="noopener noreferrer">

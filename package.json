@@ -12,7 +12,7 @@
     "css:build": "compile-less -d src -o esm",
     "css:watch": "compile-less -d src -o esm --watch",
     "css:build:dist": "compile-less -d src --combine dist.css --rm-global",
-    "watch": "tsbb watch",
+    "watch": "tsbb watch & npm run css:watch",
     "build": "tsbb build && npm run css:build && npm run css:build:dist"
   },
   "repository": {
@@ -49,9 +49,10 @@
     "@kkt/scope-plugin-options": "~7.1.1",
     "@types/react": "~17.0.39",
     "@types/react-dom": "~17.0.13",
-    "@uiw/react-github-corners": "~1.5.3",
-    "@uiw/react-markdown-preview": "~3.5.1",
+    "@uiw/github-corners": "~1.5.7",
+    "@uiw/react-markdown-preview": "~4.0.5",
     "@uiw/react-shields": "~1.1.2",
+    "@wcj/dark-mode": "~1.0.13",
     "react": "~17.0.2",
     "react-dom": "~17.0.2",
     "compile-less-cli": "~1.8.11",
