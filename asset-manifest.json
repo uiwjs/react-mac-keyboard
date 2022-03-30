@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/react-mac-keyboard/static/css/main.ddb5d5eb.css",
-    "main.js": "/react-mac-keyboard/static/js/main.2f77c254.js",
-    "refractor-prismjs-vendor.js": "/react-mac-keyboard/static/js/refractor-prismjs-vendor.93157836.js",
+    "main.css": "/react-mac-keyboard/static/css/main.e8a80f1c.css",
+    "main.js": "/react-mac-keyboard/static/js/main.06c79827.js",
+    "refractor-prismjs-vendor.js": "/react-mac-keyboard/static/js/refractor-prismjs-vendor.5382071a.js",
+    "babel-vendor.js": "/react-mac-keyboard/static/js/babel-vendor.bb85221f.js",
     "parse5-vendor.js": "/react-mac-keyboard/static/js/parse5-vendor.9db4c210.js",
     "react-vendor.js": "/react-mac-keyboard/static/js/react-vendor.7a599dfd.js",
     "static/media/logo.svg": "/react-mac-keyboard/static/media/logo.3931a054f5ef8356122965d973d55570.svg",
     "index.html": "/react-mac-keyboard/index.html",
-    "main.ddb5d5eb.css.map": "/react-mac-keyboard/static/css/main.ddb5d5eb.css.map",
-    "main.2f77c254.js.map": "/react-mac-keyboard/static/js/main.2f77c254.js.map",
-    "refractor-prismjs-vendor.93157836.js.map": "/react-mac-keyboard/static/js/refractor-prismjs-vendor.93157836.js.map",
+    "main.e8a80f1c.css.map": "/react-mac-keyboard/static/css/main.e8a80f1c.css.map",
+    "main.06c79827.js.map": "/react-mac-keyboard/static/js/main.06c79827.js.map",
+    "refractor-prismjs-vendor.5382071a.js.map": "/react-mac-keyboard/static/js/refractor-prismjs-vendor.5382071a.js.map",
+    "babel-vendor.bb85221f.js.map": "/react-mac-keyboard/static/js/babel-vendor.bb85221f.js.map",
     "parse5-vendor.9db4c210.js.map": "/react-mac-keyboard/static/js/parse5-vendor.9db4c210.js.map",
     "react-vendor.7a599dfd.js.map": "/react-mac-keyboard/static/js/react-vendor.7a599dfd.js.map"
   },
   "entrypoints": [
-    "static/js/refractor-prismjs-vendor.93157836.js",
+    "static/js/refractor-prismjs-vendor.5382071a.js",
+    "static/js/babel-vendor.bb85221f.js",
     "static/js/parse5-vendor.9db4c210.js",
     "static/js/react-vendor.7a599dfd.js",
-    "static/css/main.ddb5d5eb.css",
-    "static/js/main.2f77c254.js"
+    "static/css/main.e8a80f1c.css",
+    "static/js/main.06c79827.js"
   ]
 }
