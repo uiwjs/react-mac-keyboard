@@ -1,6 +1,4 @@
-
 import React from 'react';
-import PropTypes from 'prop-types';
 import './style/index.less';
 
 export type KeyCodeData = {
@@ -98,7 +96,7 @@ const keyCodeData: KeyCodeData[] = [
   { keycode: 40, name: ['▼'] },
 ];
 
-export default function MacKeyBoard({ prefixCls, className, style, keyCode = [], onMouseDown, onMouseUp, ...props }: MacKeyBoardProps) {
+export default function MacKeyBoard({ prefixCls = 'w-mac-keyboard', className, style, keyCode = [], onMouseDown, onMouseUp, ...props }: MacKeyBoardProps) {
   return (
     <div className={`${prefixCls || ''} ${className || ''}`} style={style}>
       <ul>
@@ -121,16 +119,3 @@ export default function MacKeyBoard({ prefixCls, className, style, keyCode = [],
     </div>
   );
 }
-
-
-MacKeyBoard.defaultProps = {
-  prefixCls: 'w-mac-keyboard',
-};
-
-MacKeyBoard.propTypes = {
-  prefixCls: PropTypes.string,
-  className: PropTypes.string,
-  keyCode: PropTypes.arrayOf(PropTypes.number),
-  onMouseDown: PropTypes.func,
-  onMouseUp: PropTypes.func,
-};

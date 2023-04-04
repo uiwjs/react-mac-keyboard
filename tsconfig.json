@@ -12,6 +12,7 @@
     "allowSyntheticDefaultImports": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
+    "outDir": "./cjs",
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
@@ -23,8 +24,6 @@
     "noEmit": true
   },
   "include": [
-    "src",
-    "website",
-    ".kktrc.ts"
+    "src"
   ]
 }
