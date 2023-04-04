@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/react-mac-keyboard/static/css/main.e8a80f1c.css",
-    "main.js": "/react-mac-keyboard/static/js/main.10494c7a.js",
-    "refractor-prismjs-vendor.js": "/react-mac-keyboard/static/js/refractor-prismjs-vendor.5382071a.js",
-    "babel-vendor.js": "/react-mac-keyboard/static/js/babel-vendor.bb85221f.js",
-    "parse5-vendor.js": "/react-mac-keyboard/static/js/parse5-vendor.9db4c210.js",
-    "react-vendor.js": "/react-mac-keyboard/static/js/react-vendor.7a599dfd.js",
+    "main.css": "/react-mac-keyboard/static/css/main.7475ac2b.css",
+    "main.js": "/react-mac-keyboard/static/js/main.84ae2e8d.js",
+    "refractor-prismjs-vendor.js": "/react-mac-keyboard/static/js/refractor-prismjs-vendor.940b18d5.js",
+    "babel-vendor.js": "/react-mac-keyboard/static/js/babel-vendor.ca79f9c4.js",
+    "parse5-vendor.js": "/react-mac-keyboard/static/js/parse5-vendor.583437f8.js",
+    "react-vendor.js": "/react-mac-keyboard/static/js/react-vendor.69346fa6.js",
     "static/media/logo.svg": "/react-mac-keyboard/static/media/logo.3931a054f5ef8356122965d973d55570.svg",
     "index.html": "/react-mac-keyboard/index.html",
-    "main.e8a80f1c.css.map": "/react-mac-keyboard/static/css/main.e8a80f1c.css.map",
-    "main.10494c7a.js.map": "/react-mac-keyboard/static/js/main.10494c7a.js.map",
-    "refractor-prismjs-vendor.5382071a.js.map": "/react-mac-keyboard/static/js/refractor-prismjs-vendor.5382071a.js.map",
-    "babel-vendor.bb85221f.js.map": "/react-mac-keyboard/static/js/babel-vendor.bb85221f.js.map",
-    "parse5-vendor.9db4c210.js.map": "/react-mac-keyboard/static/js/parse5-vendor.9db4c210.js.map",
-    "react-vendor.7a599dfd.js.map": "/react-mac-keyboard/static/js/react-vendor.7a599dfd.js.map"
+    "main.7475ac2b.css.map": "/react-mac-keyboard/static/css/main.7475ac2b.css.map",
+    "main.84ae2e8d.js.map": "/react-mac-keyboard/static/js/main.84ae2e8d.js.map",
+    "refractor-prismjs-vendor.940b18d5.js.map": "/react-mac-keyboard/static/js/refractor-prismjs-vendor.940b18d5.js.map",
+    "babel-vendor.ca79f9c4.js.map": "/react-mac-keyboard/static/js/babel-vendor.ca79f9c4.js.map",
+    "parse5-vendor.583437f8.js.map": "/react-mac-keyboard/static/js/parse5-vendor.583437f8.js.map",
+    "react-vendor.69346fa6.js.map": "/react-mac-keyboard/static/js/react-vendor.69346fa6.js.map"
   },
   "entrypoints": [
-    "static/js/refractor-prismjs-vendor.5382071a.js",
-    "static/js/babel-vendor.bb85221f.js",
-    "static/js/parse5-vendor.9db4c210.js",
-    "static/js/react-vendor.7a599dfd.js",
-    "static/css/main.e8a80f1c.css",
-    "static/js/main.10494c7a.js"
+    "static/js/refractor-prismjs-vendor.940b18d5.js",
+    "static/js/babel-vendor.ca79f9c4.js",
+    "static/js/parse5-vendor.583437f8.js",
+    "static/js/react-vendor.69346fa6.js",
+    "static/css/main.7475ac2b.css",
+    "static/js/main.84ae2e8d.js"
   ]
 }
