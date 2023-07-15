@@ -1,0 +1,48 @@
+{
+  "name": "@uiw/react-mac-keyboard",
+  "version": "1.1.5",
+  "description": "Macbook computer keyboard style for react component.",
+  "homepage": "https://uiwjs.github.io/react-mac-keyboard/",
+  "main": "cjs/index.js",
+  "module": "esm/index.js",
+  "scripts": {
+    "prepack": "npm run build",
+    "css:build": "compile-less -d src -o esm",
+    "css:watch": "compile-less -d src -o esm --watch",
+    "css:build:dist": "compile-less -d src --combine dist.css --rm-global",
+    "watch": "tsbb watch src/*.tsx --use-babel --cjs cjs & npm run css:watch",
+    "build": "tsbb build src/*.tsx --use-babel --cjs cjs && npm run css:build && npm run css:build:dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uiwjs/react-mac-keyboard.git"
+  },
+  "keywords": [
+    "mac",
+    "uiw",
+    "react",
+    "react-component",
+    "mac-keyboard",
+    "macbook",
+    "keyboard"
+  ],
+  "author": "kenny wong <wowohoo@qq.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "files": [
+    "dist.css",
+    "cjs",
+    "esm",
+    "src"
+  ],
+  "devDependencies": {
+    "@testing-library/react": "^14.0.0",
+    "@types/react-test-renderer": "^18.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-test-renderer": "^18.2.0"
+  }
+}

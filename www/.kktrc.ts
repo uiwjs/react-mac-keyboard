@@ -1,14 +1,14 @@
 import path from 'path';
-import webpack, {Configuration} from 'webpack';
-import { LoaderConfOptions } from 'kkt';
-import lessModules from '@kkt/less-modules';
+import webpack from 'webpack';
+import type { LoaderConfOptions, WebpackConfiguration } from 'kkt';
 import rawModules from '@kkt/raw-modules';
 import scopePluginOptions from '@kkt/scope-plugin-options';
-import pkg from './package.json';
+import { mdCodeModulesLoader } from 'markdown-react-code-preview-loader';
+import pkg from '../core/package.json';
 
-export default (conf: Configuration, env: 'production' | 'development', options: LoaderConfOptions) => {
+export default (conf: WebpackConfiguration, env: 'production' | 'development', options: LoaderConfOptions) => {
   conf = rawModules(conf, env, { ...options });
-  conf = lessModules(conf, env, options);
+  conf = mdCodeModulesLoader(conf);
   conf = scopePluginOptions(conf, env, {
     ...options,
     allowedFiles: [
@@ -19,6 +19,7 @@ export default (conf: Configuration, env: 'production' | 'development', options:
   conf.plugins!.push(new webpack.DefinePlugin({
     VERSION: JSON.stringify(pkg.version),
   }));
+  conf.module!.exprContextCritical = false;
   if (env === 'production') {
     conf.output = { ...conf.output, publicPath: './' };
     conf.optimization = {

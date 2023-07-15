@@ -1,6 +1,7 @@
 dist.css
 esm
 cjs
+lib
 build
 node_modules
 npm-debug.log*

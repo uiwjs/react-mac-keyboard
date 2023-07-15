@@ -22,14 +22,14 @@ jobs:
         uses: jaywcjlove/github-action-contributors@main
         with:
           filter-author: (renovate\[bot\]|renovate-bot|dependabot\[bot\])
-          output: build/CONTRIBUTORS.svg
+          output: www/build/CONTRIBUTORS.svg
           avatarSize: 42
 
       - name: Create Tag
         id: create_tag
         uses: jaywcjlove/create-tag-action@main
         with:
-          package-path: ./package.json
+          package-path: ./core/package.json
 
       - name: get tag version
         id: tag_version
@@ -40,7 +40,7 @@ jobs:
         with:
           commit_message: ${{steps.tag_version.outputs.tag}} ${{ github.event.head_commit.message }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build
+          publish_dir: ./www/build
 
       - name: Generate Changelog
         id: changelog
@@ -69,9 +69,9 @@ jobs:
 
             ${{ steps.changelog.outputs.changelog }}
 
-
       - run: npm publish --access public
-        name: 📦 @uiw/react-codesandbox publish to NPM
+        name: 📦 @uiw/react-mac-keyboard publish to NPM
         continue-on-error: true
+        working-directory: core
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

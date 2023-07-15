@@ -1,9 +1,12 @@
+<!--rehype:ignore:start-->
 <h1 align="center">React Mac Keyboard</h1>
 <p align="center">
   <a href="https://uiwjs.github.io/react-mac-keyboard">
     <img alt="react-mac-keyboard" src="https://user-images.githubusercontent.com/1680273/80699566-c2aad500-8b0e-11ea-8d37-7e5537949d73.png">
   </a>
 </p>
+
+<!--rehype:ignore:end-->
 
 <!--dividing-->
 [![Build & Deploy](https://github.com/uiwjs/react-mac-keyboard/workflows/Build%20&%20Deploy/badge.svg)](https://github.com/uiwjs/react-mac-keyboard/actions)
