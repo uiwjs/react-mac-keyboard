@@ -11,14 +11,14 @@ export default (conf: WebpackConfiguration, env: 'production' | 'development', o
   conf = mdCodeModulesLoader(conf);
   conf = scopePluginOptions(conf, env, {
     ...options,
-    allowedFiles: [
-      path.resolve(process.cwd(), 'README.md')
-    ]
+    allowedFiles: [path.resolve(process.cwd(), 'README.md')],
   });
   // Get the project version.
-  conf.plugins!.push(new webpack.DefinePlugin({
-    VERSION: JSON.stringify(pkg.version),
-  }));
+  conf.plugins!.push(
+    new webpack.DefinePlugin({
+      VERSION: JSON.stringify(pkg.version),
+    }),
+  );
   conf.module!.exprContextCritical = false;
   if (env === 'production') {
     conf.output = { ...conf.output, publicPath: './' };
@@ -46,10 +46,9 @@ export default (conf: WebpackConfiguration, env: 'production' | 'development', o
             name: 'parse5-vendor',
             chunks: 'all',
           },
-        }
-      }
-    }
+        },
+      },
+    };
   }
   return conf;
-}
-
+};

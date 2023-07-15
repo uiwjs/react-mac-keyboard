@@ -15,14 +15,12 @@ root.render(
     components={data.components}
     data={data.data}
     description="Macbook computer keyboard style for react component."
-    title={
-      <a href="https://github.com/uiwjs/react-mac-keyboard">React Mac Keyboard</a>
-    }
+    title={<a href="https://github.com/uiwjs/react-mac-keyboard">React Mac Keyboard</a>}
     version={`v${VERSION}`}
   >
     <Github href="https://github.com/uiwjs/react-mac-keyboard" />
     <Example>
       <App />
     </Example>
-  </MarkdownPreviewExample>
-  );
+  </MarkdownPreviewExample>,
+);

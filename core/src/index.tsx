@@ -4,7 +4,7 @@ import './style/index.less';
 export type KeyCodeData = {
   keycode: number;
   name: string[];
-}
+};
 
 export interface MacKeyBoardProps {
   prefixCls?: string;
@@ -69,7 +69,7 @@ const keyCodeData: KeyCodeData[] = [
   { keycode: 75, name: ['K'] },
   { keycode: 76, name: ['L'] },
   { keycode: 186, name: [':', ';'] },
-  { keycode: 222, name: ['"', '\''] },
+  { keycode: 222, name: ['"', "'"] },
   { keycode: 13, name: ['enter', 'return'] },
   { keycode: 16, name: ['⇧'] },
   { keycode: 90, name: ['Z'] },
@@ -96,7 +96,15 @@ const keyCodeData: KeyCodeData[] = [
   { keycode: 40, name: ['▼'] },
 ];
 
-export default function MacKeyBoard({ prefixCls = 'w-mac-keyboard', className, style, keyCode = [], onMouseDown, onMouseUp, ...props }: MacKeyBoardProps) {
+export default function MacKeyBoard({
+  prefixCls = 'w-mac-keyboard',
+  className,
+  style,
+  keyCode = [],
+  onMouseDown,
+  onMouseUp,
+  ...props
+}: MacKeyBoardProps) {
   return (
     <div className={`${prefixCls || ''} ${className || ''}`} style={style}>
       <ul>

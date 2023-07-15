@@ -1,11 +1,15 @@
-@w-keyboard:~"w-mac-keyboard";
+@w-keyboard:~ "w-mac-keyboard";
 
 .@{w-keyboard} {
   height: 394px;
   border-radius: 10px;
-  border: 1px solid #C9C9C9;
-  background: #F2F2F2;
-  box-shadow: 2px 0px 2px #E2E2E2 inset,-2px 2px 3px #E2E2E2 inset,1px -0px 0px #C1C1C1 inset,0px -2px 3px #C1C1C1 inset;
+  border: 1px solid #c9c9c9;
+  background: #f2f2f2;
+  box-shadow:
+    2px 0px 2px #e2e2e2 inset,
+    -2px 2px 3px #e2e2e2 inset,
+    1px -0px 0px #c1c1c1 inset,
+    0px -2px 3px #c1c1c1 inset;
   user-select: none;
   position: relative;
   width: 995px;
@@ -25,20 +29,25 @@
     margin-right: 5px;
     margin-bottom: 5px;
     background: #151515;
-    color: rgb(200,200,200);
+    color: rgb(200, 200, 200);
     text-align: center;
     line-height: 62px;
     font-size: 12px;
     border-radius: 8px;
-    border: 1px solid #3A3A3A;
-    box-shadow: 1px 0px 0px rgb(0,0,0),0px 1px 0px rgb(0,0,0),-1px 0px 0px rgb(0,0,0),0px -1px 0px rgb(0,0,0);
+    border: 1px solid #3a3a3a;
+    box-shadow:
+      1px 0px 0px rgb(0, 0, 0),
+      0px 1px 0px rgb(0, 0, 0),
+      -1px 0px 0px rgb(0, 0, 0),
+      0px -1px 0px rgb(0, 0, 0);
     box-sizing: initial;
-    transition: all .4s ease-in;
+    transition: all 0.4s ease-in;
     user-select: none;
     cursor: pointer;
     position: relative;
-    &:active, &.pressed{
-      color:#52F800;
+    &:active,
+    &.pressed {
+      color: #52f800;
       background-color: #100068;
       border: 1px solid #332376;
       transition: 1ms linear;
@@ -90,10 +99,9 @@
     &:nth-child(66) {
       padding: 7px 0;
       height: 48px;
-    } 
+    }
   }
 }
-
 
 .@{w-keyboard} {
   li:nth-child(15) span,
@@ -121,9 +129,11 @@
     height: 23px;
     width: 100%;
     float: left;
-    font-size:14px;
+    font-size: 14px;
   }
-  li:nth-child(28) span, li:nth-child(55) span, li:nth-child(67) span {
+  li:nth-child(28) span,
+  li:nth-child(55) span,
+  li:nth-child(67) span {
     line-height: 14px;
     margin-top: 43px;
     float: right;
@@ -184,7 +194,7 @@
   li:nth-child(43) {
     &:active {
       span:first-child {
-        background:#52f800;
+        background: #52f800;
       }
     }
     span:first-child {
@@ -229,7 +239,7 @@
   li:nth-child(72) {
     width: 333px;
   }
-    
+
   li:nth-child(76),
   li:nth-child(78) {
     height: 29px;

@@ -20,8 +20,12 @@
       "options": { "parser": "typescript" }
     },
     {
-      "files": "*.{less,css}",
+      "files": "*.{css}",
       "options": { "parser": "css" }
+    },
+    {
+      "files": "*.{less}",
+      "options": { "parser": "less" }
     }
   ]
 }

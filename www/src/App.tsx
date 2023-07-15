@@ -3,7 +3,7 @@ import '@uiw/github-corners';
 import '@wcj/dark-mode';
 import MacKeyboard from '@uiw/react-mac-keyboard';
 
-const APP =  () => {
+const APP = () => {
   const [keyCode, setKeyCode] = useState<number[]>([]);
   return (
     <MacKeyboard
@@ -13,11 +13,11 @@ const APP =  () => {
           setKeyCode([item.keycode]);
         }
       }}
-      onMouseUp={() =>{
+      onMouseUp={() => {
         setKeyCode([]);
       }}
     />
   );
-}
+};
 
 export default APP;
