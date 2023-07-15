@@ -1,6 +1,6 @@
 {
   "name": "@uiw/react-mac-keyboard",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "Macbook computer keyboard style for react component.",
   "homepage": "https://uiwjs.github.io/react-mac-keyboard/",
   "main": "cjs/index.js",
