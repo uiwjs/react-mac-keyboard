@@ -1,26 +1,25 @@
 {
   "files": {
-    "main.css": "/react-mac-keyboard/static/css/main.7475ac2b.css",
-    "main.js": "/react-mac-keyboard/static/js/main.2832dd8c.js",
-    "refractor-prismjs-vendor.js": "/react-mac-keyboard/static/js/refractor-prismjs-vendor.940b18d5.js",
-    "babel-vendor.js": "/react-mac-keyboard/static/js/babel-vendor.ca79f9c4.js",
-    "parse5-vendor.js": "/react-mac-keyboard/static/js/parse5-vendor.583437f8.js",
-    "react-vendor.js": "/react-mac-keyboard/static/js/react-vendor.163cfb4f.js",
-    "static/media/logo.svg": "/react-mac-keyboard/static/media/logo.3931a054f5ef8356122965d973d55570.svg",
-    "index.html": "/react-mac-keyboard/index.html",
-    "main.7475ac2b.css.map": "/react-mac-keyboard/static/css/main.7475ac2b.css.map",
-    "main.2832dd8c.js.map": "/react-mac-keyboard/static/js/main.2832dd8c.js.map",
-    "refractor-prismjs-vendor.940b18d5.js.map": "/react-mac-keyboard/static/js/refractor-prismjs-vendor.940b18d5.js.map",
-    "babel-vendor.ca79f9c4.js.map": "/react-mac-keyboard/static/js/babel-vendor.ca79f9c4.js.map",
-    "parse5-vendor.583437f8.js.map": "/react-mac-keyboard/static/js/parse5-vendor.583437f8.js.map",
-    "react-vendor.163cfb4f.js.map": "/react-mac-keyboard/static/js/react-vendor.163cfb4f.js.map"
+    "main.css": "/static/css/main.875ee488.css",
+    "main.js": "/static/js/main.9cb7232c.js",
+    "refractor-prismjs-vendor.js": "/static/js/refractor-prismjs-vendor.003d5993.js",
+    "babel-vendor.js": "/static/js/babel-vendor.8b964251.js",
+    "parse5-vendor.js": "/static/js/parse5-vendor.f5c1038c.js",
+    "react-vendor.js": "/static/js/react-vendor.9229fe00.js",
+    "index.html": "/index.html",
+    "main.875ee488.css.map": "/static/css/main.875ee488.css.map",
+    "main.9cb7232c.js.map": "/static/js/main.9cb7232c.js.map",
+    "refractor-prismjs-vendor.003d5993.js.map": "/static/js/refractor-prismjs-vendor.003d5993.js.map",
+    "babel-vendor.8b964251.js.map": "/static/js/babel-vendor.8b964251.js.map",
+    "parse5-vendor.f5c1038c.js.map": "/static/js/parse5-vendor.f5c1038c.js.map",
+    "react-vendor.9229fe00.js.map": "/static/js/react-vendor.9229fe00.js.map"
   },
   "entrypoints": [
-    "static/js/refractor-prismjs-vendor.940b18d5.js",
-    "static/js/babel-vendor.ca79f9c4.js",
-    "static/js/parse5-vendor.583437f8.js",
-    "static/js/react-vendor.163cfb4f.js",
-    "static/css/main.7475ac2b.css",
-    "static/js/main.2832dd8c.js"
+    "static/js/refractor-prismjs-vendor.003d5993.js",
+    "static/js/babel-vendor.8b964251.js",
+    "static/js/parse5-vendor.f5c1038c.js",
+    "static/js/react-vendor.9229fe00.js",
+    "static/css/main.875ee488.css",
+    "static/js/main.9cb7232c.js"
   ]
 }
