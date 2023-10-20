@@ -9,7 +9,7 @@
 <!--rehype:ignore:end-->
 
 <!--dividing-->
-[![Build & Deploy](https://github.com/uiwjs/react-mac-keyboard/workflows/Build%20&%20Deploy/badge.svg)](https://github.com/uiwjs/react-mac-keyboard/actions)
+[![CI](https://github.com/uiwjs/react-mac-keyboard/actions/workflows/ci.yml/badge.svg)](https://github.com/uiwjs/react-mac-keyboard/actions/workflows/ci.yml)
 [![issues](https://img.shields.io/github/issues/uiwjs/react-mac-keyboard.svg)](https://github.com/uiwjs/react-mac-keyboard/issues)
 [![Forks](https://img.shields.io/github/forks/uiwjs/react-mac-keyboard.svg)](https://github.com/uiwjs/react-mac-keyboard/network)
 [![Stars](https://img.shields.io/github/stars/uiwjs/react-mac-keyboard.svg)](https://github.com/uiwjs/react-mac-keyboard/stargazers)
