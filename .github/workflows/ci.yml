@@ -59,7 +59,7 @@ jobs:
           allowUpdates: true
           token: ${{ secrets.GITHUB_TOKEN }}
           name: ${{ steps.create_tag.outputs.version }}
-          tag: ${{ steps.create_tag.outputs.versionNumber }}
+          tag: ${{ steps.create_tag.outputs.version }}
           body: |
             [![](https://img.shields.io/badge/Open%20in-unpkg-blue)](https://uiwjs.github.io/npm-unpkg/#/pkg/@uiw/react-mac-keyboard@${{steps.create_tag.outputs.versionNumber}}/file/README.md)
 
